@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>United Pearl | Premium App Development Studio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="United Pearl is a modern mobile app and software development studio. We design, craft, and publish high-performance, secure digital experiences for Android and iOS.">
+  <meta name="keywords" content="United Pearl, Mobile Apps, Android Developer, iOS Developer, App Studio, Software Development, Privacy-focused Apps">
+  <meta name="author" content="United Pearl">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%2306b6d4'/><circle cx='50' cy='50' r='15' fill='white'/></svg>">
+
+  <!-- Link Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Orbs -->
+  <div class="glow-orb-1"></div>
+  <div class="glow-orb-2"></div>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="navLogo">
+        <div class="logo-icon"></div>
+        United Pearl
+      </a>
+      
+      <button class="burger-menu" id="burgerToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#apps" class="nav-link">Our Apps</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#contact" class="btn-contact-nav">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-tagline">Mobile & Web Publishing Studio</span>
+        <h1 class="hero-title">Crafting Elegant <span>Digital Pearls</span> For Mobile</h1>
+        <p class="hero-desc">We build clean, beautiful, and secure mobile applications and web services designed to make your daily life smoother. Simple, normal, and highly efficient.</p>
+        <div class="hero-cta">
+          <a href="#apps" class="btn-primary">
+            Explore Our Apps
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#contact" class="btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      
+      <div class="hero-art-container">
+        <!-- Floating Card 1 -->
+        <div class="hero-floating-card card-1">
+          <div class="floating-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div>
+            <div class="floating-text-title">4.8★ Avg Rating</div>
+            <div class="floating-text-desc">Across all mobile platforms</div>
+          </div>
+        </div>
+
+        <!-- Phone Mockup -->
+        <div class="hero-phone-mockup">
+          <div class="hero-phone-screen">
+            <div class="phone-header">
+              <span>United Pearl</span>
+              <span>100% Secure</span>
+            </div>
+            
+            <div class="phone-home-card">
+              <div class="phone-icon-large">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><circle cx='12' cy='12' r='8'/><circle cx='12' cy='12' r='3'/></svg>
+              </div>
+              <div class="phone-app-title">Pearl Studio</div>
+              <div class="phone-app-desc">Clean, user-centric mobile solutions crafted for daily productivity and peace of mind.</div>
+            </div>
+            
+            <div class="phone-header" style="justify-content: center; font-size: 8px;">
+              <span>• Designed for Android & iOS •</span>
+            </div>
+          </div>
+          <div class="phone-glow-elements"></div>
+        </div>
+
+        <!-- Floating Card 2 -->
+        <div class="hero-floating-card card-2">
+          <div class="floating-icon" style="color: var(--accent-secondary); background: rgba(139, 92, 246, 0.15)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          </div>
+          <div>
+            <div class="floating-text-title">1M+ Downloads</div>
+            <div class="floating-text-desc">Global trusted users</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Our Development Expertise</h2>
+        <p class="section-desc">We build clean, robust applications ensuring high performance, gorgeous aesthetics, and compliance with platform guidelines.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+          </div>
+          <h3 class="service-title">Mobile App Development</h3>
+          <p class="service-desc">Native Android & iOS apps build with high performance, supporting dynamic styling, screen scaling, and robust performance.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path><path d="M12 2V12L17 15"></path></svg>
+          </div>
+          <h3 class="service-title">Elegant UI/UX Design</h3>
+          <p class="service-desc">We create beautiful layouts that are natural to navigate. Minimal, premium design systems with smooth micro-animations.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          </div>
+          <h3 class="service-title">Privacy & Security First</h3>
+          <p class="service-desc">Strict security principles. We make sure all local data encryption and cloud communication strictly adhere to Google Play guidelines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Apps Section -->
+  <section id="apps">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Explore Our Published Apps</h2>
+        <p class="section-desc">Check out our latest mobile applications, designed with attention to detail and published on major app marketplaces.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- App 1: Pearl Tasks -->
+        <div class="app-card">
+          <div class="app-preview-box">
+            <div class="app-showcase-icon icon-pearl-task">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+            </div>
+          </div>
+          <div class="app-details">
+            <div class="app-meta">
+              <span class="app-category">Productivity</span>
+              <span class="app-badge-status status-live">Live</span>
+            </div>
+            <h3 class="app-card-title">Pearl Tasks</h3>
+            <p class="app-card-desc">A clean, minimalist daily task planner and reminder. Organize your schedules, set smart alarms, and analyze your productivity with clean stats.</p>
+            <div class="app-links">
+              <a href="#" class="btn-app-store primary">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.25v13.5c0 .69.56 1.25 1.25 1.25H10v-8H3zm11.25-8H14v8h7V4.25c0-.69-.56-1.25-1.25-1.25h-5.5zM3 14v5.75c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V14H3z"/></svg>
+                Google Play Store
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- App 2: Oceanic Calmer -->
+        <div class="app-card">
+          <div class="app-preview-box">
+            <div class="app-showcase-icon icon-pearl-sound">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v1a7 7 0 0 1-14 0v-1"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
+            </div>
+          </div>
+          <div class="app-details">
+            <div class="app-meta">
+              <span class="app-category">Health & Fitness</span>
+              <span class="app-badge-status status-live">Live</span>
+            </div>
+            <h3 class="app-card-title">Oceanic Calmer</h3>
+            <p class="app-card-desc">Unwind and focus with highly immersive, ambient ocean soundscapes. Includes deep breathing guides and meditation timers for stress relief.</p>
+            <div class="app-links">
+              <a href="#" class="btn-app-store primary">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.25v13.5c0 .69.56 1.25 1.25 1.25H10v-8H3zm11.25-8H14v8h7V4.25c0-.69-.56-1.25-1.25-1.25h-5.5zM3 14v5.75c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V14H3z"/></svg>
+                Google Play Store
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- App 3: Pearl Vault -->
+        <div class="app-card">
+          <div class="app-preview-box">
+            <div class="app-showcase-icon icon-pearl-wallet">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
+          </div>
+          <div class="app-details">
+            <div class="app-meta">
+              <span class="app-category">Utilities / Security</span>
+              <span class="app-badge-status status-upcoming">Upcoming</span>
+            </div>
+            <h3 class="app-card-title">Pearl Vault</h3>
+            <p class="app-card-desc">An encrypted secure vault to safely store passwords, codes, and confidential notes. Completely localized with zero cloud tracking.</p>
+            <div class="app-links">
+              <a href="#" class="btn-app-store muted" onclick="return false;">
+                Coming Soon
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-img-frame">
+        <div class="about-img-backdrop"></div>
+        <div class="about-visual">
+          <div class="about-stat-row">
+            <div class="stat-item">
+              <div class="stat-number">99.9%</div>
+              <div class="stat-label">Crash-Free Rate</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">5★</div>
+              <div class="stat-label">Design Standards</div>
+            </div>
+            <div class="stat-item" style="grid-column: span 2;">
+              <div class="stat-number" style="font-size: 28px;">Privacy First</div>
+              <div class="stat-label">Committed to User Data Protection</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="section-tag" style="text-align: left; margin-left: 0;">Who We Are</span>
+        <h2 class="section-title" style="text-align: left; margin-left: 0;">Dedicated to Mobile Craftsmanship</h2>
+        <p>At United Pearl, we believe a software product should be as refined as a natural pearl. We pay rigorous attention to the small details—from smooth animations to secure local storage—ensuring our applications are polished, fast, and completely safe.</p>
+        <p>Whether it's a utility tool or a calming wellness helper, our focus remains on providing intuitive layouts and respectful data policies for our global user base.</p>
+        
+        <ul class="about-features">
+          <li>
+            <span>✓</span> Adherence to Google Play Console Developer Policies
+          </li>
+          <li>
+            <span>✓</span> Sleek visual aesthetics and lightweight codebase
+          </li>
+          <li>
+            <span>✓</span> Direct, open lines of support for our users
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Connect With Us</span>
+        <h2 class="section-title">We'd Love to Hear From You</h2>
+        <p class="section-desc">Have questions about our apps, feature requests, or technical support queries? Get in touch with our team.</p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-info-summary">
+          <div class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>Email Support:</span>
+            <a href="mailto:gadhiyadarshit12@gmail.com">gadhiyadarshit12@gmail.com</a>
+          </div>
+        </div>
+
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea id="message" class="form-control" placeholder="Write your feedback, feature requests or support questions here..." required></textarea>
+          </div>
+
+          <div class="form-submit-container">
+            <button type="submit" class="btn-primary btn-submit">
+              Send Message
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </div>
+          
+          <div id="formMessage" class="form-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo" style="margin-bottom: 16px;">
+            <div class="logo-icon"></div>
+            United Pearl
+          </a>
+          <p class="footer-brand-desc">Dedicated to crafting clean, high-performance, and secure mobile app experiences that respect user simplicity.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#apps">Our Apps</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Developer Support</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:gadhiyadarshit12@gmail.com">Email Support</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 United Pearl. All rights reserved.</span>
+        <div class="footer-meta-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Include Script -->
+  <script src="script.js"></script>
+</body>
+</html>
